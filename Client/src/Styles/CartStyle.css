@@ -1,0 +1,21 @@
+.cart-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+    .row{
+        margin: 0px !important;
+    }
+
+    h4{
+        margin-bottom: .2rem;
+    }
+
+    p{
+        margin-bottom: .5rem;
+    }
+
+}

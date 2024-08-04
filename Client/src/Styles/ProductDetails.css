@@ -1,0 +1,177 @@
+.product-details {
+    margin-top: 100px !important;
+  }
+  
+  .product-details-info {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  
+  .product-details-info h6 {
+    margin-bottom: 20px !important;
+  }
+  
+  .similar-products .card {
+    background-color: rgba(128, 128, 128, 0.097);
+    width: 18rem;
+  }
+  
+  .similar-products .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .similar-products .card-price {
+    color: green;
+    font-weight: bold;
+  }
+  .similar-products button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .similar-products .card-text {
+    color: rgb(90, 89, 89);
+  }
+  
+  .similar-products .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .similar-products .card-img-top {
+    height: 300px !important;
+  }
+
+  /* again css */
+
+  .container {
+    padding: 9rem 0;
+  }
+
+  .grid {
+    display: grid;
+    gap: 6rem;
+  }
+  
+  .grid-two-column {
+    grid-template-columns: repeat(2, 1fr);
+  
+  }
+
+  .page_loading {
+    font-size: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+
+    
+
+    .product-data-warranty {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ccc;
+      /* margin-bottom: 1rem; */
+
+      .product-warranty-data {
+        text-align: center;
+
+        .warranty-icon {
+          background-color: rgba(220, 220, 220, 0.5);
+          border-radius: 50%;
+          width: 4rem;
+          height: 4rem;
+          padding: 0.6rem;
+        }
+        p {
+          font-size: 1rem;
+          padding-top: 0.4rem;
+          margin: 0px !important;
+        }
+      }
+    }
+    .product-data h2 p{
+      margin: 0px !important;
+    }
+    .product-data-price {
+      font-weight: bold;
+    }
+    .product-data-real-price {
+      color: rgb(98 84 243);
+    }
+    .product-data-info {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      font-size: 1.2rem;
+
+      span {
+        font-weight: bold;
+      }
+    }
+
+    hr {
+      width: 100%;
+      border: 0.1rem solid #000;
+      color: red;
+    }
+  }
+
+  .product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-img-top {
+  border: 1px dotted #d7d7d7
+}
+
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .grid {
+    display: grid;
+    gap: 1.3rem;
+  }
+  
+  .grid-two-column {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+  }
+}
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .grid {
+    display: grid;
+    gap: 3rem;
+  }
+  
+  .grid-two-column {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+  }
+
+  .product-data-warranty{
+    display: none !important;
+  }
+
+  }
+
